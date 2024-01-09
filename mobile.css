@@ -55,9 +55,11 @@ body {
 
         margin-top: 24px;
 
+        border-radius: 15px;
+
         /* test */
         width: 50%;
-        height: 100px;
+        height: 200px;
     }
 
     .section-uno .demo:last-of-type {
@@ -102,6 +104,8 @@ body {
         height: 100px;
         width: 50%;
         background-color: white;
+
+        border-radius: 25px;
     }
 
     /* FINE SEZIONE PLANNING */
@@ -126,10 +130,12 @@ body {
     .person {
         background-color: #9792e4;
 
+        border-radius: 25px;
+
         margin-top: 30px;
         /* test */
         width: 50%;
-        height: 100px;
+        height: 300px;
     }
 
     .person:first-of-type {
@@ -138,6 +144,40 @@ body {
 
     .person:last-of-type {
         margin-bottom: 110px;
+    }
+
+    /* FINE SEZIONE TESTIMONIALS */
+
+    /* INIZIO SEZIONE BENEFITS */
+
+    .benefits {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: #9792e4;
+    }
+
+    .benefits h2 {
+        font-size: 25px;
+        color: white;
+
+        margin-top: 80px;
+        margin-bottom: 70px;
+    }
+
+    .pros {
+        /* test */
+        width: 50%;
+        height: 300px;
+        background-color: white;
+
+        margin-top: 30px;
+        border-radius: 15px;
+    }
+
+    .pros:last-of-type {
+        margin-bottom: 60px;
     }
 }
 
