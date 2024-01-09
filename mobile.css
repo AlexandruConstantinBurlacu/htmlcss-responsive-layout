@@ -225,5 +225,15 @@ body {
         border-radius: 25px;
         padding: 8px;
     }
+
+    /* FINE SEZIONE ABOUT US */
+
+    /* INIZIO SEZIONE GET STARTED */
+
+    .get-started {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
 }
 
