@@ -10,10 +10,18 @@ body {
 
 nav {
     background-color: rgb(0, 132, 253);
+
     display: flex;
     justify-content: space-between;
 }
 
 nav div {
     color: white;
+
+    font-size: 22px;
+
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 22px;
+    margin-bottom: 22px;
 }
