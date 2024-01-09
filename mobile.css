@@ -103,5 +103,41 @@ body {
         width: 50%;
         background-color: white;
     }
+
+    /* FINE SEZIONE PLANNING */
+
+    /* INIZIO SEZIONE TESTIMONIALS */
+
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials h6 {
+        margin-top: 66px;
+        margin-bottom: 42px;
+    }
+
+    .testimonials h2 {
+        margin-bottom: 52px;
+    }
+
+    .person {
+        background-color: #9792e4;
+
+        margin-top: 30px;
+        /* test */
+        width: 50%;
+        height: 100px;
+    }
+
+    .person:first-of-type {
+        margin-top: 56px;
+    }
+
+    .person:last-of-type {
+        margin-bottom: 110px;
+    }
 }
 
