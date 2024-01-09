@@ -8,7 +8,10 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-/* INIZIO NAV */
+/* SEZIONE MOBILE */
+
+@media screen and (max-width: 480px) {
+    /* INIZIO NAV */
 
 nav {
     background-color: rgb(0, 132, 253);
@@ -43,9 +46,6 @@ section .demo:first-of-type {
 }
 
 .demo {
-    margin-left: 22px;
-    margin-right: 22px;
-
     background-color: #b5ddff;
 
     margin-top: 24px;
@@ -54,3 +54,5 @@ section .demo:first-of-type {
     width: 50%;
     height: 100px;
 }
+}
+
