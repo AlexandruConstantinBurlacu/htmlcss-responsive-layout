@@ -48,6 +48,7 @@ body {
 
     .section-uno .demo:nth-child(1) {
         margin-top: 50px;
+        width: 75%;
     }
 
     .section-uno .demo:nth-child(2) {
@@ -64,7 +65,7 @@ body {
         gap: 5px;
 
         /* test */
-        width: 50%;
+        width: 100px;
         height: 200px;
     }
 
