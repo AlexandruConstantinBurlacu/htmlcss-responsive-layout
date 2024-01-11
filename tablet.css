@@ -51,10 +51,6 @@ body {
         gap: 22px;
     }
 
-    .container .big {
-        width: ;
-    }
-
     .demo > * {
         margin-top: 30px;
         margin-left: 30px;
@@ -310,16 +306,21 @@ body {
 
     .about-us {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 22px;
 
         padding-left: 30px;
         padding-right: 30px;
     }
 
-    .about-us h1 {
+    .container-tre {
         margin-top: 90px;
         margin-bottom: 54px;
+    }
+
+    .about-us h1 {
+        
 
         font-size: 32px;
 
