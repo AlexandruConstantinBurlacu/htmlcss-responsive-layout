@@ -311,6 +311,8 @@ body {
         margin-top: 90px;
         margin-bottom: 54px;
 
+        font-size: 32px;
+
         color: #9792e4;
     }
 
@@ -385,6 +387,8 @@ body {
 
         border-radius: 25px;
         padding: 20px;
+
+        text-decoration: none;
     }
 
     .get-started section {
