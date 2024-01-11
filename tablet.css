@@ -380,13 +380,19 @@ body {
     .get-started h3 {
         margin-top: 30px;
         margin-bottom: 45px;
+
+        font-size: 40px;
     }
 
     .get-started h1 {
         color: #fdc15f;
         margin-bottom: 48px;
 
-        font-size: 42px;
+        font-size: 70px;
+    }
+
+    .get-started p {
+        text-align: center;
     }
 
     .get-started a {
@@ -427,6 +433,8 @@ body {
 
     footer p {
         padding-top: 42px;
+
+        text-align: center;
     }
 
     footer section {
