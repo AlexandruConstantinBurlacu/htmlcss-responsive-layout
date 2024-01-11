@@ -131,6 +131,10 @@ body {
     .planning h2 , .planning p {
         color: white;
     }
+
+    .planning h2 {
+        font-size: 50px;
+    }
     
     .planning p {
         margin-top: 65px;
@@ -155,6 +159,7 @@ body {
     .white p {
         color: black;
         font-style: italic;
+        text-align: center;
     }
 
     .white .fa-solid {
@@ -186,11 +191,17 @@ body {
     .testimonials h6 {
         margin-top: 66px;
         margin-bottom: 42px;
+        font-size: 15px;
     }
 
     .testimonials h2 {
         margin-bottom: 52px;
         color: #9792e4;
+        font-size: 32px;
+    }
+
+    .testimonials p {
+        text-align: center;
     }
 
     .person {
@@ -204,6 +215,9 @@ body {
         padding-right: 16px;
         padding-top: 32px;
         padding-bottom: 32px;
+
+        display: flex;
+        flex-direction: row;
     }
 
     .person:first-of-type {
