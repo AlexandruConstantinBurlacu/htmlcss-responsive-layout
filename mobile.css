@@ -52,7 +52,7 @@ body {
         margin-right: 30px;
     }
 
-    .section-uno .demo:first-of-type {
+    .section-uno .container:first-of-type {
         margin-top: 50px;
     }
 
@@ -62,13 +62,9 @@ body {
         margin-top: 24px;
 
         border-radius: 15px;
-
-        /* test */
-        width: 90%;
-        height: auto;
     }
 
-    .section-uno .demo:last-of-type {
+    .section-uno .container:last-of-type {
         margin-bottom: 76px;
     }
 
