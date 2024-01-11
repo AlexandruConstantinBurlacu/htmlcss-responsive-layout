@@ -156,11 +156,27 @@ body {
         font-style: italic;
     }
 
+    .white .fa-solid {
+        padding: 20px;
+        border-radius: 50%;
+        color: black;
+        background-color: #9792e4;
+    }
+
     /* FINE SEZIONE PLANNING */
 
     /* INIZIO SEZIONE TESTIMONIALS */
 
     .testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .testimonials div {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -173,6 +189,7 @@ body {
 
     .testimonials h2 {
         margin-bottom: 52px;
+        color: #9792e4;
     }
 
     .person {
@@ -181,9 +198,11 @@ body {
         border-radius: 25px;
 
         margin-top: 30px;
-        /* test */
-        width: 50%;
-        height: 300px;
+
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 
     .person:first-of-type {
@@ -192,6 +211,23 @@ body {
 
     .person:last-of-type {
         margin-bottom: 110px;
+    }
+
+    .person img {
+        width: 60%;
+
+        border-radius: 50%;
+    }
+
+    .person p {
+        color: white;
+
+        margin-top: 28px;
+        margin-bottom: 34px;
+    }
+
+    .person h4 {
+        color: white;
     }
 
     /* FINE SEZIONE TESTIMONIALS */
