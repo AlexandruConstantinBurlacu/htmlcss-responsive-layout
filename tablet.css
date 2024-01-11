@@ -258,6 +258,11 @@ body {
         margin-bottom: 70px;
     }
 
+    .container-due {
+        display: flex;
+        gap: 22px;
+    }
+
     .pros {
         background-color: white;
 
@@ -270,7 +275,7 @@ body {
         padding-right: 38px;
     }
 
-    .pros:last-of-type {
+    .container-due:last-of-type {
         margin-bottom: 60px;
     }
 
