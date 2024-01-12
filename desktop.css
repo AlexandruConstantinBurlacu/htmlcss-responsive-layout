@@ -7,3 +7,459 @@
 body {
     font-family: 'PT Sans', sans-serif;
 }
+
+/* SEZIONE Desktop */
+
+@media screen and (min-width: 992px) {
+    /* INIZIO NAV */
+
+    nav {
+        background-color: rgb(0, 132, 253);
+
+        display: flex;
+        justify-content: space-between;
+
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    nav div {
+        color: white;
+
+        font-size: 22px;
+
+        
+        margin-top: 22px;
+        margin-bottom: 22px;
+    }
+
+    /* FINE NAV */
+
+    /* INIZIO SEZIONE 1 */
+
+    .section-uno {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        padding-left: 390px;
+        padding-right: 390px;
+    }
+
+    .container {
+        display: flex;
+        gap: 22px;
+    }
+
+    .demo > * {
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-uno .container:first-of-type {
+        margin-top: 50px;
+    }
+
+    .demo {
+        background-color: #b5ddff;
+
+        margin-top: 24px;
+
+        border-radius: 15px;
+    }
+
+    .section-uno .container:last-of-type {
+        margin-bottom: 76px;
+    }
+
+    .demo h3 {
+        color: #0084fd;
+    }
+
+    .demo p {
+        color: #5a6e7f;
+        margin-bottom: 40px;
+    }
+
+    .demo a {
+        background-color: #0084fd;
+        color: white;
+        text-decoration: none;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        margin-bottom: 38px;
+    }
+
+    .demo img {
+        width:80%;
+        height: auto;
+    }
+
+    .demo .fa-solid {
+        color: #0084fd;
+        height: 78px;
+        width: auto;
+    }
+
+    /* FINE SEZIONE UNO */
+
+    /* INIZIO SEZIONE PLANNING */
+
+    .planning {
+        background-color: #9792e4;
+
+        padding-left: 520px;
+        padding-right: 520px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 66px;
+    }
+
+    .planning img {
+        width: 100%;
+        height: auto;
+
+        margin-top: 66px;
+        margin-bottom: 90px;
+    }
+
+    .planning h2 , .planning p {
+        color: white;
+    }
+
+    .planning h2 {
+        font-size: 24px;
+    }
+    
+    .planning p {
+        margin-top: 65px;
+        margin-bottom: 40px;
+    }
+
+    .white {
+        margin-top: 66px;
+        margin-bottom: 64px;
+        background-color: white;
+
+        border-radius: 25px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+
+    .white p {
+        color: black;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .white .fa-solid {
+        padding: 20px;
+        border-radius: 50%;
+        color: black;
+        background-color: #9792e4;
+    }
+
+    /* FINE SEZIONE PLANNING */
+
+    /* INIZIO SEZIONE TESTIMONIALS */
+
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .testimonials div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials h6 {
+        margin-top: 66px;
+        margin-bottom: 42px;
+        font-size: 15px;
+    }
+
+    .testimonials h2 {
+        margin-bottom: 52px;
+        color: #9792e4;
+        font-size: 32px;
+    }
+
+    .testimonials p {
+        text-align: center;
+    }
+
+    .person {
+        background-color: #9792e4;
+
+        border-radius: 25px;
+
+        margin-top: 30px;
+
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .person:first-of-type {
+        margin-top: 56px;
+    }
+
+    .person:last-of-type {
+        margin-bottom: 110px;
+    }
+
+    .person img {
+        width: 60%;
+
+        border-radius: 50%;
+    }
+
+    .person p {
+        color: white;
+
+        margin-top: 28px;
+        margin-bottom: 34px;
+    }
+
+    .person h4 {
+        color: white;
+    }
+
+    /* FINE SEZIONE TESTIMONIALS */
+
+    /* INIZIO SEZIONE BENEFITS */
+
+    .benefits {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: #9792e4;
+
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .benefits h2 {
+        font-size: 40px;
+        color: white;
+
+        margin-top: 80px;
+        margin-bottom: 70px;
+    }
+
+    .container-due {
+        display: flex;
+        gap: 22px;
+    }
+
+    .pros {
+        background-color: white;
+
+        margin-top: 30px;
+        border-radius: 15px;
+
+        padding-top: 46px;
+        padding-bottom: 30px;
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+
+    .container-due:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .pros h1 {
+        font-size: 50px;
+        margin-bottom: 42px;
+    }
+
+    .pros h1 , .pros h3  {
+        color: #9792e4;
+    }
+
+    .pros p {
+        margin-top: 30px;
+        margin-bottom: 32px;
+    }
+
+    .pros a {
+        background-color: #9792e4;
+        color: white;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 30px;
+        text-decoration: none;
+    }
+
+    /* FINE SEZIONE BENEFITS */
+
+    /* INIZIO SEZIONE ABOUT US */
+
+    .about-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 22px;
+
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .container-tre {
+        margin-top: 90px;
+        margin-bottom: 54px;
+    }
+
+    .about-us h1 {
+        font-size: 46px;
+
+        color: #9792e4;
+
+        margin-bottom: 60px;
+    }
+
+    .about-us p:last-of-type {
+        margin-top: 66px;
+        margin-bottom: 60px;
+    }
+
+    .about-us img {
+        width: 50%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .about-us h2 {
+        margin-top: 34px;
+        margin-bottom: 30px;
+        color: #9792e4;
+    }
+
+    .about-us a {
+        color: white;
+        background-color: #9792e4;
+        margin-bottom: 76px;
+        text-decoration: none;
+        border-radius: 25px;
+        padding: 8px;
+    }
+
+    /* FINE SEZIONE ABOUT US */
+
+    /* INIZIO SEZIONE GET STARTED */
+
+    .get-started {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: #9792e4;
+
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .get-started > * {
+        color: white;
+    }
+
+    .get-started h6 {
+        font-weight: lighter;
+        margin-top: 64px;
+    }
+
+    .get-started h3 {
+        margin-top: 30px;
+        margin-bottom: 45px;
+
+        font-size: 40px;
+    }
+
+    .get-started h1 {
+        color: #fdc15f;
+        margin-bottom: 48px;
+
+        font-size: 70px;
+    }
+
+    .get-started p {
+        text-align: center;
+    }
+
+    .get-started a {
+        margin-top: 36px;
+        margin-bottom: 36px;
+
+        background-color: white;
+        color: #9792e4;
+
+        border-radius: 25px;
+        padding: 20px;
+
+        text-decoration: none;
+    }
+
+    .get-started section {
+        margin-bottom: 62px;
+    }
+
+    /* FINE SEZIONE GET STARTED */
+
+    /* INIZIO SEZIONE FOOTER */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-left: 30px;
+        padding-right: 30px;
+
+        background-color: #333333;
+    }
+
+    footer > * {
+        color: white;
+    }
+
+    footer p {
+        padding-top: 42px;
+
+        text-align: center;
+    }
+
+    footer section {
+        padding-bottom: 43px;
+        margin-top: 70px;
+    }
+
+    footer section a {
+        color: #9792e4;
+    }
+}
+
